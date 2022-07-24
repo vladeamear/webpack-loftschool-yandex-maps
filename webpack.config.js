@@ -45,6 +45,7 @@ module.exports = {
             title: 'GeoObject',
             template: 'index.hbs'
         }),
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin(['dist']),
+        new MiniCssExtractPlugin()
     ]
 }

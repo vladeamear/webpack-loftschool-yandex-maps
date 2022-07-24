@@ -1,0 +1,11 @@
+<div class="review-baloon__wrapper" id="review-baloon">
+  <div id="reviews" class="review-baloon__reviews"></div>
+  <form onsubmit="return formsubmit(this)" class="review-baloon__form">
+    <p class="review-baloon__form--title rb-default-text rb-black-text">Отзыв</p>
+    <input type="text" name="name" class="review-baloon__form--input" placeholder="Укажите ваше имя" />
+    <input type="text" name="place" class="review-baloon__form--input" placeholder="Укажите место" />
+    <textarea name="review" class="review-baloon__form--textarea" placeholder="Оставить отзыв"></textarea>
+    <input type="hidden" name="coords" id="coords" value={{coords}}>
+    <input type="submit" class="review-baloon__form--submit" value="Добавить" id="add" />
+  </form>
+</div>
